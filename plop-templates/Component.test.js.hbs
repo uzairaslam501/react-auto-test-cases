@@ -1,0 +1,10 @@
+import React from 'react';
+import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
+import {{pascalCase name}} from './{{pascalCase name}}';
+
+test('renders {{pascalCase name}} component', () => {
+  render(<{{pascalCase name}} label="Test Label" />);
+  const element = screen.getByText(/test label/i);
+  expect(element).toBeInTheDocument();
+});
