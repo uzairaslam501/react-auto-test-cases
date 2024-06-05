@@ -12,12 +12,12 @@ module.exports = function (plop) {
       actions: [
         {
           type: 'add',
-          path: 'src/components/{{pascalCase name}}/{{pascalCase name}}.js',
+          path: 'src/widgets/global/{{pascalCase name}}/{{pascalCase name}}.js',
           templateFile: 'plop-templates/Component.js.hbs',
         },
         {
           type: 'add',
-          path: 'src/components/{{pascalCase name}}/{{pascalCase name}}.test.js',
+          path: 'src/widgets/global/{{pascalCase name}}/{{pascalCase name}}.test.js',
           templateFile: 'plop-templates/Component.test.js.hbs',
         },
       ],
